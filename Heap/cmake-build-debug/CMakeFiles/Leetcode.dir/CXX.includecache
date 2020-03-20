@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Users/Administrator/CLionProjects/Leetcode/Heap/main.cpp
+../header.h
+D:/Users/Administrator/CLionProjects/Leetcode/header.h
+
+D:/Users/Administrator/CLionProjects/Leetcode/header.h
+cstdio
+-
+cstring
+-
+algorithm
+-
+iostream
+-
+string
+-
+vector
+-
+stack
+-
+cstdlib
+-
+cmath
+-
+set
+-
+list
+-
+deque
+-
+map
+-
+queue
+-
+
