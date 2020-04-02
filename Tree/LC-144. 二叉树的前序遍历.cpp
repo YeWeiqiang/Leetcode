@@ -23,13 +23,8 @@ public:
             TreeNode* temp = s.top();
             s.pop();
             res.push_back(temp->val);
-            if(temp->right != NULL){
-                s.push(temp->right);
-            }
-            if(temp->left != NULL){
-                s.push(temp->left);
-            }
-
+            if(temp->right != NULL) s.push(temp->right);
+            if(temp->left != NULL) s.push(temp->left);
         }
 
         return res;
