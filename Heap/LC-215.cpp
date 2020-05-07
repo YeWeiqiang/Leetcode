@@ -17,6 +17,8 @@ public:
 
 int main()
 {
+
+    cout<<INT_MAX<<endl;
     vector<int> v = {3,2,1,5,6,4};
     Solution* solution = new Solution();
     cout<<solution->findKthLargest(v, 2)<<endl;;

@@ -50,7 +50,8 @@ int main()
     return 0;
 }
 /**
- * 初始化建堆的时间复杂度为O(n)
+ * 初始化建堆的时间复杂度为O(n):
+ * O(log1) + O(log2) + O(log3) + … O(logn) = O(n)
  * 排序重建堆的时间复杂度为nlog(n)
  *
  * 总的时间复杂度为O(n+nlogn)=O(nlogn)。
